@@ -19,7 +19,7 @@ A *custom resource* is an extension of the Kubernetes API that is not necessaril
 Kubernetes cluster.
 In other words, it represents a customization of a particular Kubernetes installation.
 
-Custom resources can appear and disappear in a running cluster through dynamic registration,
+Custom resource can appear and disappear in a running cluster through dynamic registration,
 and cluster admins can update custom resources independently of the cluster itself.
 Once a custom resource is installed, users can create and access its objects with
 [kubectl](/docs/user-guide/kubectl-overview/), just as they do for built-in resources like *pods*.

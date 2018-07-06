@@ -1,7 +1,7 @@
 Note: These tests are importing code from kubernetes that isn't really
 meant to be used outside the repo. This causes vendoring problems. As
 a result, we have to work around those with these lines in the travis
-config:
+config: 
 
 ```
 - rm $GOPATH/src/k8s.io/kubernetes/vendor/k8s.io/apimachinery
